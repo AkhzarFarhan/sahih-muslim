@@ -1,0 +1,160 @@
+.App {
+  min-height: 100vh !important;
+  width: 100vw;
+  font-family: 'Varela Round', sans-serif;
+  position: relative;
+}
+.language{
+  max-width: 20vw;
+  padding-left: 40vw;
+
+}
+.languageEnglish{
+  border-color: red;
+  border-width: 10px;
+  text-align: center;
+  /*position: absolute;*/
+  background-color: #3CC47A;
+  border-radius: 8px;
+  /*margin: 0 auto;*/
+  padding: 5px 5px;
+  /*width: 100vw;*/
+  color: black;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 12px; 
+/*  box-sizing: border-box;
+  -moz-box-sizing: border-box; */
+
+}
+.languageHindi{
+  text-align: center;
+  /*position: absolute;*/
+  background-color: #3CC47A;
+  border-radius: 8px;
+  /*margin: 0 auto;*/
+  padding: 5px 5px;
+  /*width: 100vw;*/
+  color: black;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 12px; 
+ /* box-sizing: border-box;
+  -moz-box-sizing: border-box;*/ 
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+  background-color: #3CC47A;
+  border-radius: 8px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 5px 5px;
+  width: 100vw;
+  color: black;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 12px; 
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.homePage{
+  color: white;
+  text-align: center;
+  position: relative;
+  height: 100%;
+  width: 100vw;
+}
+.english{
+  font-style: italic;
+  font-size: 12px;
+}
+.arabic{
+  color: #3CC47A;
+  font-size: 25px;
+}
+.surahName{
+  border-radius: 8px;
+  margin:0 auto;
+  margin-top:10px;
+  text-align: center;
+  padding: 25px 25px;
+  width:100vw;
+  color:rgba(0,0,0,0);
+  background-color: #3CC47A;
+  color: black;
+  font-style: 'Varela Round', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;  
+}
+.menuBarContainer{
+  padding: 10px 10px 14px 10px;
+  cursor: pointer;
+  background-color: #3CC47A;
+  display: inline-block;
+  border-radius: 5px;
+  margin: 20px;
+}
+.menubar {
+  width: 25px;
+  height: 2.5px;
+  border-radius: 5px;
+  background-color: black;
+  margin: 4px 0 0 0;
+}
+.verse{
+
+  /*box-shadow: 0 0 4px 2px lightgrey;*/
+}
+.loading{
+  height: 50vh;
+  width:100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.loader {
+  border: 5px solid #f3f3f3; /* Light grey */
+  border-top: 5px solid #3CC47A; /* Blue */
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+

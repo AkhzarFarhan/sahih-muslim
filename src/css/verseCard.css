@@ -1,0 +1,36 @@
+.verseCard{
+	border-radius: 8px;
+	margin:0 auto;
+	margin-top:10px;
+	text-align: left;
+	padding: 25px 25px;
+	width:50vw;
+	color:rgba(0,0,0,0.7);
+	background-color: #353849;
+	color: lightgrey;
+	font-family: 'Varela Round', sans-serif;
+	font-weight: normal !important;
+	font-size: 17px !important;
+}
+.verseArabic{
+	text-align: right;
+	font-size: 25px;
+	padding-bottom: 10px;
+	color: #3CC47A;
+}
+.verseHindi{
+	text-align: left;
+	padding-top: 25px;
+	/*color: #939393;*/
+}
+.verseNumber{
+	top: -20px;
+	left: -20px;
+	position: relative;
+	font-size: 10px;
+}
+@media only screen and (max-width: 10in ){
+  .verseCard{
+    width: 85vw;
+  }
+}
